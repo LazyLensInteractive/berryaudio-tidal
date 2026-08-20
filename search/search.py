@@ -27,6 +27,7 @@ class SearchExtension(Actor):
         results = await asyncio.gather(
             self._core.request("radio.search", query=query),
             self._core.request("local.search", query=query),
+            self._core.request("tidal.search", query=query),
             return_exceptions=True,
         )
         result_merged = {}

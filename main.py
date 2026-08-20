@@ -40,6 +40,7 @@ async def async_main(verbose=False):
         "radio",
         "source",
         "spotify",
+        "tidal",
         "shairportsync",
         "bluetooth",
         "local",
