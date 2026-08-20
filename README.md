@@ -29,7 +29,7 @@ Built using **gstreamer**, **python** as server, **reactjs** & **typescript** as
 
 - Designed for the Raspberry Pi (should also work on other single board computers)
 - Plays MP3, FLAC, WAV, OGG, DSD, DSF, and other formats, with detailed codec info, ID3 tag reading, and cover art extraction.
-- Bluetooth streaming, AirPlay 2, Spotify Connect, and built-in file browser for easy library management.
+- Bluetooth streaming, AirPlay 2, Spotify Connect, TIDAL catalog access, and built-in file browser for easy library management.
 - Filter Music Library & Radio by alphabets dictionary
 - **Collection - Recently Played, Top 100, Favourites**
 - Bluetooth receiver and transmitter support (Handles automatically based on device connected)
@@ -87,6 +87,7 @@ Installation guides, SD card flashing instructions, and hardware compatibility &
 - **AirPlay 2 receiver** *(PCM 44/48 kHz / 32-bit)* with cover art & metadata display — powered by [Shairport Sync v5.0](https://github.com/mikebrady/shairport-sync)  
 - **Spotify Connect** with cover art & metadata display — powered by [Librespot](https://github.com/librespot-org/librespot)  
 - Built-in **File Browser** for easy navigation and library management 
+- **TIDAL API integration** with on-device Client ID/Client Secret setup and catalog search. Open **TIDAL Setup** in the web interface, enter the credentials from the TIDAL Developer Dashboard, and select the two-letter country code registered for your app. The secret is stored only on the device in a permission-restricted file.
 - **Si4703** based FM Tuner breakout boards (Docs coming soon..)
 - Use it as a **USB DAC sound card** by connecting it to a Mac or Windows computer (Pi Zero 2W only)
 
@@ -373,5 +374,4 @@ Fork it, modify it, and build your perfect listening setup.
 ## Contributing
 
 We welcome your contributions! Based on functionality and code quality, contributions may be integrated directly into the core system or offered as user-contributed modules that can be installed separately.
-
 

@@ -1,0 +1,12 @@
+country_code: US
+scopes:
+  - collection.read
+  - collection.write
+  - entitlements.read
+  - playback
+  - playlists.read
+  - playlists.write
+  - recommendations.read
+  - search.read
+  - search.write
+  - user.read
